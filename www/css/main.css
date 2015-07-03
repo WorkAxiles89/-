@@ -1,0 +1,558 @@
+/* Общие стили */
+* {
+margin: 0;
+padding: 0;
+outline: 0;
+}
+
+body {
+background: #ffffff;
+}
+
+a {
+text-decoration:none;
+}
+
+.f_left {
+float:left;
+}
+
+.f_right {
+float:right;
+}
+
+
+
+#wrapper {
+overflow: hidden;
+position: relative;
+width: 100%;
+}
+
+#container {
+backface-visibility: hidden;
+position: relative;
+transform: translate3d(0px, 0px, 0px);
+transition: transform 500ms ease 0s;
+width: 100%;
+}
+
+/* Главная страница */
+
+#introduction {
+background: #ff9059;
+height:400px;
+padding:0px;
+}
+
+.container {
+width: 960px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.intro {
+width:460px;
+text-align:left;
+height:400px;
+float:left;
+}
+
+#header_block_ul {
+list-style:none
+}
+
+@font-face {
+font-family: Romul; /* имя шрифта для CSS правил */
+src: local("Romul"), /* проверяем наличие шрифта в ОС пользователя */
+url(Fonts/AiMMxHEB.otf); 
+}
+
+#header_block_ul  li {
+line-height:35px;
+padding:0 8px;
+font-size:12px;
+font-family: Romul; /* имя шрифта для CSS правил */
+src: local("Romul"), /* проверяем наличие шрифта в ОС пользователя */
+url(Fonts/AiMMxHEB.ttf); 
+}
+
+#header_block_ul  li a {
+color:white;
+}
+
+#header_block_ul  li a:hover {
+color:#3c3c3e;
+}
+
+#intro_header {
+font-size:71px;
+color:white;
+margin-top:80px;
+}
+
+#intro_description {
+width:350px;
+font-size:19px;
+color:white;
+margin:0 40px;
+margin-top:20px;
+text-align:left;
+}
+
+/* Страница о нас */
+.container_inner {
+width:750px;
+height:530px;
+margin-left:105px;
+margin-top:40px;
+border-top:1px solid #d7d9da;
+}
+
+.container_inner_header {
+width:100%;
+text-align:center;
+padding-top:20px;
+}
+
+#about_textblock {
+width:50%;
+height:auto;
+margin-top:40px;
+}
+
+.about_textmini {
+margin-top:10px;
+}
+
+.header_textblock {
+border-bottom:1px solid #d7d9da;
+font-size:18px;
+font-weight:bold;
+width:97%;
+padding-bottom:10px;
+}
+
+/* Отзыв */
+.review {
+width:100%;
+height:176px;
+background:#ff9059;
+}
+
+.review_block {
+width:960px;
+height:100%;
+display:block;
+margin:0 auto;
+}
+
+.review_block_left {
+width:350px;
+height:100%;
+float:left;
+display:block;
+}
+
+.review img {
+float: left;
+margin-left: 200px;
+margin-top: 30px;
+}
+
+.review_text {
+font-family: Georgia, 'Times New Roman', serif;
+color:white;
+font-size: 15px;
+float:left;
+width:530px;
+margin-top:50px;
+text-decoration:none;
+}
+
+.review_text a {
+color:white;
+}
+
+.review_text a:hover {
+color:black;
+}
+
+.review_author {
+color:white;
+font-family: Tahoma, Arial, sans-serif;
+margin-top: 20px;
+float:left;
+font-size: 15px;
+width:530px;
+}
+
+/* Плюс */
+.plus_block {
+width:200px;
+height:130px;
+display:block;
+text-align:center;
+margin-top:40px;
+margin-left:35px;
+}
+
+.plus_block_text {
+width: 160px;
+height:30px;
+background:#3c3c3e;
+text-align:center;
+display:block;
+margin: 0 auto;
+line-height:30px;
+color:white;
+}
+
+/* Плюс 2 */
+#plus2 {
+background:#d5784a;
+}
+
+.link_block {
+width:100%;
+background:white;
+float:left;
+display:block;
+margin-top:40px;
+height: 70px;
+color: #d5784a;
+font-size:32px;
+}
+
+.link_block p {
+margin-top:15px;
+float:left;
+}
+
+.link_block img {
+width: 45px;
+float: left;
+margin-top: 10px;
+margin-right: 7px;
+margin-left: 110px;
+}
+
+.link_block a {
+text-decoration:none;
+color: #d5784a;
+}
+
+.link_block a:hover {
+color:black;
+}
+
+.plus2_block {
+width:100%;
+height:200px;
+background:white;
+float:left;
+display:block;
+margin-top:40px;
+}
+
+.plus_block2 {
+width:200px;
+height:130px;
+display:block;
+text-align:center;
+margin-top:40px;
+margin-left:35px;
+}
+
+.plus_block2_text {
+width:130px;
+height:30px;
+text-align:center;
+display:block;
+margin: 0 auto;
+line-height:30px;
+color:#afb1b3;
+font-weight:bold;
+}
+
+/* Проекты */
+#project {
+background:white;
+overflow: hidden;
+padding-bottom:50px;
+}
+
+.container_inner_text {
+width:100%;
+float:left;
+margin-top:40px;
+text-align:center;
+}
+
+.project_block {
+width:100%;
+height:auto;
+display:block;
+overflow: hidden;
+margin-top:60px;
+}
+
+.project_blocktext {
+width:50%;
+height:auto;
+}
+
+.header_project {
+border-bottom: 1px solid black;
+font-size: 18px;
+font-weight: bold;
+width: 100%;
+padding-bottom: 10px;
+}
+
+.header_project a {
+color:black;
+}
+
+.header_project a:hover {
+text-decoration:underline;
+}
+
+.project_textmini {
+margin-top:10px;
+padding-right: 6px;
+}
+
+/* Работы */
+#work {
+overflow: hidden;
+padding-bottom:50px;
+}
+
+.work_block { 
+width:360px;
+height:320px;
+display:block;
+margin-top:30px;
+}
+
+.header_work {
+border-bottom: 1px solid black;
+font-size: 18px;
+font-weight: bold;
+width: 100%;
+padding-top:10px;
+padding-bottom: 10px;
+}
+
+.header_work a {
+color:black;
+}
+
+.header_work a:hover {
+text-decoration:underline;
+}
+
+.work_textmini {
+margin-top:10px;
+}
+
+/* Контакты */
+#contact {
+background:#3c3c3e;
+overflow: hidden;
+padding-bottom:100px;
+}
+
+.contact_block {
+width:48%;
+height:auto;
+overflow:hidden;
+display:block;
+margin-top:40px;
+}
+
+.header_contact{
+border-bottom: 1px solid white;
+font-size: 18px;
+font-weight: bold;
+width: 100%;
+padding-top:10px;
+padding-bottom: 10px;
+color:white;
+}
+
+.contact_textmini {
+margin-top:10px;
+color:white;
+}
+
+.number {
+color:#26ade3;
+margin-top:40px;
+font-size:20px;
+margin-left:10px;
+}
+
+.form_contact {
+width:100%;
+background:#4b4b4d;
+border:0px;
+color:white;
+height:20px;
+margin-top:5px;
+}
+
+.section_menu {
+width: 750px;
+height:auto;
+overflow:hidden;
+margin:0 auto;
+}
+
+.pager {
+width:100%;
+text-align:center;
+padding-top:40px;
+}
+
+ol {
+list-style-position: inside;
+margin-left:20px;
+}
+user agent stylesheetol {
+display: block;
+list-style-type: decimal;
+}
+
+.link {
+color:black;
+text-decoration:underline;
+}
+
+.link:hover {
+color:#ff9059;
+text-decoration:none;
+}
+
+
+.botton_form {
+width: 180px;
+height: 30px;
+background: #4b4b4d;
+text-align: center;
+display: block;
+margin: 0 auto;
+line-height: 30px;
+color: white;
+margin-top:15px;
+cursor:pointer;
+}
+
+
+.botton_form:hover {
+background:#636365;
+}
+
+
+.botton {
+width: 180px;
+height: 30px;
+background: #3c3c3e;
+text-align: center;
+display: block;
+margin: 0 auto;
+line-height: 30px;
+color: white;
+cursor:pointer;
+}
+
+
+.botton:hover {
+background:#636365;
+}
+
+@font-face {
+font-family: LazurskiC; /* имя шрифта для CSS правил */
+src: local("LazurskiC"), /* проверяем наличие шрифта в ОС пользователя */
+url(Fonts/LazurskiC.otf); 
+}
+
+
+
+.LazurskiC {
+font-family: LazurskiC; /* имя шрифта для CSS правил */
+src: local("LazurskiC"), /* проверяем наличие шрифта в ОС пользователя */
+url(Fonts/LazurskiC.otf); 
+}
+
+.LazurskiCBold {
+font-family: LazurskiC; /* имя шрифта для CSS правил */
+src: local("LazurskiC"), /* проверяем наличие шрифта в ОС пользователя */
+url(Fonts/LazurskiC.otf); 
+font-weight:bold;
+}
+
+.section {
+background-attachment: scroll;
+background-position: center top;
+position: relative;
+padding: 10px 0 0;
+}
+
+ul.pager {
+border: 0 none;
+margin-left: 350px;
+font-size: 14px;
+line-height: 100%;
+margin: 0 auto;
+padding: 0;
+font-family: LazurskiC; /* имя шрифта для CSS правил */
+src: local("LazurskiC"), /* проверяем наличие шрифта в ОС пользователя */
+url(Fonts/LazurskiC.otf); 
+}
+
+ul.pager li {
+display: inline;
+}
+
+ul.pager a:link, ul.pager a:visited {
+color:#444444;
+padding: 1px 6px;
+text-decoration: none;
+}
+
+ul.pager .page a {
+font-family: LazurskiC; /* имя шрифта для CSS правил */
+src: local("LazurskiC"), /* проверяем наличие шрифта в ОС пользователя */
+url(Fonts/LazurskiC.otf); 
+font-size:16px;
+}
+
+ul.pager a:hover {
+}
+
+ul.pager .selected a {
+background: none repeat scroll 0 0 black;
+color: #FFFFFF;
+font-family: LazurskiC; /* имя шрифта для CSS правил */
+src: local("LazurskiC"), /* проверяем наличие шрифта в ОС пользователя */
+url(Fonts/LazurskiC.otf); 
+font-size:16px;
+}
+
+ul.pager .hidden a {
+color: #888888;
+}
+
+ul.pager .first, ul.yiiPager .last {
+display: inline;
+}
+
+.content_block {
+width: 100%;
+height: auto;
+display: block;
+margin-top: 59px;
+}
+

@@ -1,0 +1,46 @@
+/* Слайдер и большие картинки*/
+#slider  {
+width:100%;
+height:638px;
+display:block;
+margin-top:90px;
+position: relative;
+}
+
+#slider .slide-navs {
+bottom: 20px;
+left: 50%;
+position: absolute;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#slider .slide-navs li {
+float: left;
+background: url("/Image/slide-bg.png") no-repeat scroll 0 0 transparent;
+height:12px;
+width:12px;
+margin-right:4px;
+cursor:pointer;
+}
+
+#slider .slide-navs li.current-slide {
+background: url("/Image/slide-bg-active.png") no-repeat scroll 0 0 transparent;
+}
+
+#slider  .slides li {
+width:100%;
+height:638px;
+display:block;
+overflow: hidden;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: 50% 0%;
+display: none;
+left: 0;
+position: absolute;
+top: 0;
+}
