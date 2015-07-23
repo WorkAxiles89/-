@@ -16859,3 +16859,30 @@ Stack trace:
 REQUEST_URI=/img/next.png
 HTTP_REFERER=http://dom.local/css/lightbox.css
 ---
+2015/07/22 21:31:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "img/next.png".' in V:\home\dom.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 V:\home\dom.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('img/next.png')
+#1 V:\home\dom.local\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 V:\home\dom.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/next.png
+HTTP_REFERER=http://dom.local/css/lightbox.css
+---
+2015/07/22 21:50:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "img/next.png".' in V:\home\dom.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 V:\home\dom.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('img/next.png')
+#1 V:\home\dom.local\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 V:\home\dom.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/next.png
+HTTP_REFERER=http://dom.local/css/lightbox.css
+---
+2015/07/22 21:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "img/next.png".' in V:\home\dom.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 V:\home\dom.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('img/next.png')
+#1 V:\home\dom.local\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 V:\home\dom.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/next.png
+HTTP_REFERER=http://dom.local/css/lightbox.css
+---
